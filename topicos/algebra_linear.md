@@ -66,9 +66,9 @@ Fonte: [UFRJ](https://ic.ufrj.br/~collier/lectures/ala.pdf)
 
 - <ins>**Subtração de vetores**</ins> - é dado por $a$ - $b$. Para obter $-b$ basta inverter o seu [sentido](#sentido).  
 <img style="background:white"  src="../img/algebra_linear_2.svg" alt="subtração de vetores" width="300">  
-- *Atenção*: $a-b$ é diferente de $b-a$  
+- ***Atenção:*** $a-b$ é diferente de $b-a$  
 - EXEMPLO:  
-    - dado vetor $a=(2,3)$ e $b=(1,2)$, $a-b$ será:  
+    - Dado vetor $a=(2,3)$ e $b=(1,2)$, $a-b$ será:  
     $$-b=-(1,2)=(-1,-2)$$
     $$a-b = (2,3) + (-1,-2) = ((2-1),(3-2))=(1,1)$$
     - Agora no caso de $b-a$ o resultado será:  
