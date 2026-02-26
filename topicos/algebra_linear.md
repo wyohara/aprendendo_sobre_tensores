@@ -52,7 +52,8 @@ Fonte: [UFRJ](https://ic.ufrj.br/~collier/lectures/ala.pdf)
     - No caso do vetor $v=(2,6)$ e $u=(3,9)$  
     $$(2 \cdot 9) = (6 \cdot 3)$$
 - Outra forma de descobrir se os vetores são colineares é reduzir os vetores a forma $u=k \cdot v$ onde $\exists x \in \mathbb{R}$  
-    - No caso do vetor $v=(2,6)$ e $u=(3,9)$  é o mesmo que $v=\frac{2}{3}u$
+    - No caso do vetor $v=(2,6)$ e $u=(3,9)$  é o mesmo que $v=\frac{2}{3}u$:  
+
     $$v=\frac{2}{3}u = \frac{2}{3}(3,9) = ((\frac{2}{3} \cdot 3), (\frac{2}{3} \cdot 9)) = (2,6)$$
 
 ## Introdução e Conceitos Básicos
@@ -65,16 +66,14 @@ Fonte: [UFRJ](https://ic.ufrj.br/~collier/lectures/ala.pdf)
 
 - <ins>**Subtração de vetores**</ins> - é dado por $a$ - $b$. Para obter $-b$ basta inverter o seu [sentido](#sentido).  
 <img style="background:white"  src="../img/algebra_linear_2.svg" alt="subtração de vetores" width="300">  
-
     - *Atenção*: $a-b$ é diferente de $b-a$  
     - EXEMPLO:  
         - dado vetor $a=(2,3)$ e $b=(1,2)$, $a-b$ será:  
-        $$-b=-(1,2)=(-1,-2)$$
-        $$a-b = (2,3) + (-1,-2) = ((2-1),(3-2))=(1,1)$$
+        $$-b=-(1,2)=(-1,-2)$$  
+        $$a-b = (2,3) + (-1,-2) = ((2-1),(3-2))=(1,1)$$  
         - Agora no caso de $b-a$ o resultado será:  
-        $$-a=-(2,3)=(-2,-3)$$
-        $$b-a = (1,2) + (-2,-3) = ((1-2),(2-3))=(-1,-1)$$
-
+        $$-a=-(2,3)=(-2,-3)$$  
+        $$b-a = (1,2) + (-2,-3) = ((1-2),(2-3))=(-1,-1)$$  
 - As operações de soma e subtração ainda podem ser simplificadas como uma operação de multiplicação de um vetor $λ$ e o vetor $v$.  
     - A generalização para $λ$ só é válida se obedecer as seguintes regras:  
         - *$1 \cdot v = v$*; 
