@@ -50,10 +50,10 @@ Fonte: [UFRJ](https://ic.ufrj.br/~collier/lectures/ala.pdf)
 - Um **<ins>Vetor<ins>** é um segmento de reta orientado que possui [comprimento](#módulo-norma-ou-comprimento), [direção](#direção) e [sentido](#sentido).
 
 ### Operações com Vetores
-- <ins>**Soma de vetores**</ins> - Usa a [Regra do Paralelogramo](https://pt.wikipedia.org/wiki/Regra_do_paralelogramo): 
+- <ins>**Soma de vetores**</ins> - Usa a [Regra do Paralelogramo](https://pt.wikipedia.org/wiki/Regra_do_paralelogramo):  
         $$(a+b)^2 = a^2 + b^2 + 2 \cdot a \cdot b \cdot \cos \theta$$  
-<img style="background:white" src="../img/algebra_linear_1.svg" alt="regra do paralelogramo" width="300">    
-- <ins>**Subtração de vetores**</ins> é dado por $a$ - $b$. Para obter $- b$ basta inverter o seu [sentido](#sentido).  
+<img style="background:white" src="../img/algebra_linear_1.svg" alt="regra do paralelogramo" width="300">  
+- <ins>**Subtração de vetores**</ins> - é dado por $a$ - $b$. Para obter $-b$ basta inverter o seu [sentido](#sentido).  
 <img style="background:white"  src="../img/algebra_linear_2.svg" alt="subtração de vetores" width="300">  
     - *Atenção*: $a-b$ é diferente de $b-a$  
     - EXEMPLO:  
