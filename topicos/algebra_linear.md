@@ -35,11 +35,12 @@ Fonte: [UFRJ](https://ic.ufrj.br/~collier/lectures/ala.pdf)
         $$u=\frac{v}{||{v}||} = (\frac{3}{5},\frac{4}{5}) = (0.6, 0.8)$$
         - Confirmando que $(0.6,0.8)$ é o vetor unitário:  
         $$||u|| = \sqrt{(0.6)^2+(0.8)^2} = \sqrt{0.36+0.64} = \sqrt{1} = 1$$
-        - Logo, $(0.6, 0.8)$ é o vetor unitário de $(3, 4)$
+        - Logo, $(0.6, 0.8)$ é o vetor unitário de $(3, 4)$  
+
 #### Projeção ortogonal
 - É um componente que representa a sombra que projeta $v$ na direção de $u$.
     - O comprimento desse vetor projeção é dado por:
-     $$ Proj_{\mathbf{u}}(v) = ∥v∥ · | cos \theta|$$
+     $$Proj_{\mathbf{u}}(v) = ∥v∥ · | cos \theta|$$
     <img style="background:white" src="../img/algebra_linear_3.svg" alt="subtração de vetores" width="300">
 #### Vetores colineares
 - São vetores que possuem a mesma [direção](#direção), ou seja, se sobrepor os vetores, eles seráo ***paralelos***
