@@ -41,16 +41,19 @@ Fonte: [UFRJ](https://ic.ufrj.br/~collier/lectures/ala.pdf)
 - É um componente que representa a sombra que projeta $v$ na direção de $u$.
     - O comprimento desse vetor projeção é dado por:
      $$Proj_{\mathbf{u}}(v) = ∥v∥ · | cos \theta|$$
-    <img style="background:white" src="../img/algebra_linear_3.svg" alt="subtração de vetores" width="300">
+    <img style="background:white" src="../img/algebra_linear_3.svg" alt="subtração de vetores" width="300">  
+
 #### Vetores colineares
-- São vetores que possuem a mesma [direção](#direção), ou seja, se sobrepor os vetores, eles seráo ***paralelos***
+- São vetores que possuem a mesma [direção](#direção), ou seja, se sobrepor os vetores, eles seráo ***paralelos***  
+
 <img style="background:white" src="../img/algebra_linear_4.svg" alt="subtração de vetores" width="300">  
-- Para saber se são colineares basta multiplicar de forma cruzada os vetores. O resultado deverá ser o mesmo.
+
+- Para saber se são colineares basta multiplicar de forma cruzada os vetores. O resultado deverá ser o mesmo.  
     - No caso do vetor $v=(2,6)$ e $u=(3,9)$  
-    $$(2 \cdot 9) = (6 \cdot 3) $$
+    $$(2 \cdot 9) = (6 \cdot 3)$$
 - Outra forma de descobrir se os vetores são colineares é reduzir os vetores a forma $u=k \cdot v$ onde $\exists x \in \mathbb{R}$  
     - No caso do vetor $v=(2,6)$ e $u=(3,9)$  é o mesmo que $v=\frac{2}{3}u$
-    $$ v=\frac{2}{3}u = \frac{2}{3}(3,9) = ((\frac{2}{3} \cdot 3), (\frac{2}{3} \cdot 9)) = (2,6)$$
+    $$v=\frac{2}{3}u = \frac{2}{3}(3,9) = ((\frac{2}{3} \cdot 3), (\frac{2}{3} \cdot 9)) = (2,6)$$
 
 ## Introdução e Conceitos Básicos
 - Um **<ins>Vetor<ins>** é um segmento de reta orientado que possui [comprimento](#módulo-norma-ou-comprimento), [direção](#direção) e [sentido](#sentido).
