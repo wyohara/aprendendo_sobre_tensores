@@ -75,16 +75,17 @@ Fonte: [UFRJ](https://ic.ufrj.br/~collier/lectures/ala.pdf)
     - Agora no caso de $b-a$ o resultado será:  
     $$-a=-(2,3)=(-2,-3)$$
     $$b-a = (1,2) + (-2,-3) = ((1-2),(2-3))=(-1,-1)$$
+
 - As operações de soma e subtração ainda podem ser simplificadas como uma operação de multiplicação de um vetor $λ$ e o vetor $v$.  
     - A generalização para $λ$ só é válida se obedecer as seguintes regras:  
-        - *$1 \cdot v = v$*; 
-        - *$0 \cdot v = 0$*;
-        - *$λ ∈ \mathbb{R}$*
-        - *$λ(u + v) = λu + λv$*;
-            - com *$λ ∈ \mathbb{R}$*
-        - *$(λ + µ)u = λu + µu$*;
-            - com *$µ ∈ \mathbb{R}$*
-        - *$(λµ)u = λ(µu)$*;
+        - $1 \cdot v = v$; 
+        - $0 \cdot v = 0$;
+        - $λ ∈ \mathbb{R}$
+        - $λ(u + v) = λu + λv$;
+            - com $λ ∈ \mathbb{R}$
+        - $(λ + µ)u = λu + µu$;
+            - com $µ ∈ \mathbb{R}$
+        - $(λµ)u = λ(µu)$;
     - Dado o os vetor $u=(2,5)$ e $v=(3,−1)$:
         - A soma será:
         $$u+v=(1 \cdot u) +(1 \cdot v)$$
@@ -94,18 +95,17 @@ Fonte: [UFRJ](https://ic.ufrj.br/~collier/lectures/ala.pdf)
 ### Projeções Ortogonais
 - Caso posicionemos um vetor $v$ em cima de um vetor $u$, podemos criar uma sombra de $v$ em $u$, ou *<ins>[projeção ortogonal](#projeção-ortogonal)</ins>*.
     - Sua fórmula é:
-    
-     $$ Proj_{\mathbf{u}}(v) = ∥v∥ · | cos \theta|$$
+    $$ Proj_{\mathbf{u}}(v) = ∥v∥ · | cos \theta|$$
     - Observações quanto ao ângulo $\theta$ formado entre os vetores $v$ e $u$:
         - Caso $\cos \theta > 0$ o ângulo é agudo ($<90°$) e mesmo sentido que $u$
         - Caso $\cos \theta < 0$ o ângulo é obtuso ($>90°$) e sentido oposto a $u$
 
     #### Projeção em vetor unitário
-    - Se o vetor u for um vetor unitário *$(∥v∥ · | \cos \theta|) \cdot u$* é [colinear](#vetores-colineares) a *$u$*.
+    - Se o vetor u for um vetor unitário $(∥v∥ · | \cos \theta|) \cdot u$ é [colinear](#vetores-colineares) a $u$.
 
     #### Projeção em vetor não unitário
     - Se o vetor $u$ não for vetor unitário o valor da projeção será:  
-    $$ Proj_{\mathbf{u}}(v) = ∥v∥ \cdot \cos θ \cdot \frac{u}{||u||}$$
+    $$Proj_{\mathbf{u}}(v) = ∥v∥ \cdot \cos θ \cdot \frac{u}{||u||}$$
     
 
 
