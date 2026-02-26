@@ -78,16 +78,16 @@ Fonte: [UFRJ](https://ic.ufrj.br/~collier/lectures/ala.pdf)
 
 - As operações de soma e subtração ainda podem ser simplificadas como uma operação de multiplicação de um vetor $λ$ e o vetor $v$.  
     - A generalização para $λ$ só é válida se obedecer as seguintes regras:  
-        - $1 \cdot v = v$; 
-        - $0 \cdot v = 0$;
-        - $λ ∈ \mathbb{R}$;
-        - $λ(u + v) = λu + λv$ com $λ ∈ \mathbb{R}$;
-        - $(λ + µ)u = λu + µu$ com $µ ∈ \mathbb{R}$;
-        - $(λµ)u = λ(µu)$;
-    - Dado o os vetor $u=(2,5)$ e $v=(3,-1)$:
-        - A soma será:
+        - $1 \cdot v = v$;  
+        - $0 \cdot v = 0$;  
+        - $λ ∈ \mathbb{R}$;  
+        - $λ(u + v) = λu + λv$ com $λ ∈ \mathbb{R}$;  
+        - $(λ + µ)u = λu + µu$ com $µ ∈ \mathbb{R}$;  
+        - $(λµ)u = λ(µu)$;  
+    - Dado o os vetor $u=(2,5)$ e $v=(3,-1)$:  
+        - A soma será:  
         $$u+v=(1 \cdot u) +(1 \cdot v)$$
-        - A subtração será:
+        - A subtração será:  
         $$u-v=(1 \cdot u) +(-1 \cdot v)$$
 
 ### Projeções Ortogonais
