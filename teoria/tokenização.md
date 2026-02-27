@@ -209,7 +209,7 @@ Verifica se a palavra está sendo quebrada no mesmo lugar, não importando onde 
 - atribuímos 1 sempre que ocorrer uma segmentação diferente da moda; 
 - dividimos pelo total de ocorrências da palavra;
 - A fórmula, de uma palavra $w$ que aparece ${N_w}$ vezes no corpus, a variância da segmentação é:
-$$\DeclareMathOperator{Var}(w) = \frac{1}{N_w} \sum_{i=1}^{N_w} \mathbb{1}\left[ S_{w,i} \neq S_{w}^{\text{moda}} \right]$$
+$$Var = \frac{1}{N_w} \sum_{i=1}^{N_w} \mathbb{1}\left[ S_{w,i} \neq S_{w}^{\text{moda}} \right]$$
 - Com isso calculamos a média ponderada:  
 $$\text{Estabilidade Ponderada} = \frac{\sum_{w} N_w \times \text{Var}(w)}{\sum_{w} N_w}$$
 - Ou a média normal
